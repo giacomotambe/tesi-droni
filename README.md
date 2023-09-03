@@ -8,8 +8,8 @@ docker run -it --privileged -v /tmp/.X11-unix:/tmp/.X11-unix:ro -e DISPLAY=:0 --
 - all' interno del dockerfile c'è il codice per la creazione dell'immagine, con tutti i pacchetti installati
 
 - per lanciare la simulazione di droni:
-  - cd /PX4-Autopilot
-  - sudo ./Tools/simulation/sitl_multiple_run.sh 2
-  - sudo ./Tools/simulation/jmavsim/jmavsim_run.sh -l
-  - sudo ./Tools/simulation/jmavsim/jmavsim_run.sh -p 4561 -l
+  $ cd /PX4-Autopilot //
+  $ sudo ./Tools/simulation/sitl_multiple_run.sh 2 //
+  $ sudo ./Tools/simulation/jmavsim/jmavsim_run.sh -l //
+  $ sudo ./Tools/simulation/jmavsim/jmavsim_run.sh -p 4561 -l //
 
