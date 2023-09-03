@@ -1,5 +1,5 @@
 # tesi-droni
-docker run -it --privileged -v /tmp/.X11-unix:/tmp/.X11-unix:ro -e DISPLAY=:0 --network host --name=prova6 giacomotambellini/ambiente_droni_px4:0.1
+docker run -it --privileged -v /tmp/.X11-unix:/tmp/.X11-unix:ro -e DISPLAY=:0 --network host --name=ambiente_px4 giacomotambellini/ambiente_droni_px4:0.1
 
 - una volta creato il container, il sistema ubuntu avrà già un utente 'user' al suo interno con password 'user', mentre la password dell'utente root è 'root'
 
